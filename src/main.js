@@ -4,6 +4,7 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import naive from "naive-ui";
+import './assets/css/index.css'
 
 createApp(App)
 .use(store)
